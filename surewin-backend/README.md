@@ -47,7 +47,7 @@ The API provides the following endpoints:
 - PATCH /bill/water
 - POST /upload/:type
 - GET /property-units
-- POST /property-units/add"
+- POST /property-units/add
 - PATCH /property-units/update/:id
 - GET /property-units/:id
 - DELETE /property-units/delete/:id
