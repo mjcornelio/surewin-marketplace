@@ -74,4 +74,38 @@ The API provides the following endpoints:
 - Sequelize.js
 - JSON Web Tokens
 
+## File Structure
+
+```bash
+├── controllers/     # Request handlers for the API      
+│   ├── authController.js
+│   └── userController.js
+├── db/              # Database Connection  
+│   ├── connect.js
+├── middleware/      # Backend middleware    
+│   ├── authenticateToken.js
+├── models/           # Database models      
+│   ├── Contract.js
+│   ├── Contract_Archive.js
+│   ├── Invoice.js
+│   ├── ParkingCollection.js
+│   ├── PropertyUnit.js
+│   ├── Report.js
+│   ├── Tenant.js
+│   ├── Transaction.js
+│   ├── User.js
+│   └── Utility.js
+├── public/       # Public folder  
+├── routes/       # API routes  
+│   ├── authRoutes.js
+│   └── userRoutes.js
+├── utils/        # Utils
+│   ├── cloudinary.js
+│   └── recurring-invoice.js
+├── views/        # Hogan.js views for email  
+│   ├── resetpassword.hjs
+│   └── sendpassword.hjs
+└── app.js        # Entry point for the application    
+```
+
 
